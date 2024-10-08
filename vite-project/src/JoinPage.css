@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.JoinMain{
+  width: 100%;
+  height: 100vh;
+}
+
+.JoinHeader{
+  width: 100%;
+  height: 60px;
+  border-bottom: solid 1px #D8D8D8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.JoinImg{
+  margin-right: 100px;
+}
+
+.JoinButton{
+  display: flex;
+  margin-left: 200px;
+  justify-content: space-between;
+  width: 200px;
+  height: 70%;
+}
+
+.PageLoginButton{
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.PageJoinButton{
+  width: 50%;
+  height: 100%;
+  background:#00B7A4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.JoinPageMain{
+  width:100%;
+  height: 90.4%;
+  background-color: aqua;
+}
