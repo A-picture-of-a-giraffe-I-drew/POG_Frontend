@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.LoginMain{
+  width: 100%;
+  height: 100vh;
+}
+
+.LoginHeader{
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #D8D8D8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.LogoImg{
+  margin-right: 100px;
+}
+
+.button{
+  display: flex;
+  margin-left: 200px;
+  justify-content: space-between;
+  width: 200px;
+  height: 70%;
+}
+
+.loginButton{
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.joinButton{
+  width: 50%;
+  height: 100%;
+  background:#00B7A4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.LoginPageMain{
+  width: 100%;
+  height: 90.4%;
+  display: flex;
+  justify-content: center;;
+}
+
+.LoginBody{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.LoginFont{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: -200px;
+  margin-bottom: 70px;
+}
+
+.Input{
+  width: 80%;
+  height: 45px;
+}
+
+.Legend{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+.LoginInput{
+  width: 100%;
+  height: 100%;
+  background-color: #EFF0F0;
+  border-radius: 11px;
+  border: none;
+  outline: none;
+}
+
+.passwardInput{
+  width: 100%;
+  height: 100%;
+  background-color: #EFF0F0;
+  border-radius: 11px;
+  border: none;
+  outline: none;
+}
+
+input::placeholder{
+  text-indent: 15px;
+}
+
+.LoginButton{
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  background-color: #00B7A4;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+}
