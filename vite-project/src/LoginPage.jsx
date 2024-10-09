@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './LoginPage.css'
 import Logo from './svg/logo.svg'
 import { Link, useNavigate } from 'react-router-dom'
+import Eyes from './svg/eyes.svg';
 
 function App() {
   
@@ -27,7 +28,7 @@ function App() {
   const nav = useNavigate();
   const handleClick = () => {
     if(id.userId !== "" && id.userPassword !== ""){
-      nav('/',{state:{form}});
+      nav('/LoginMain',{state:{form}});
     }
   }
 
@@ -63,6 +64,7 @@ function App() {
               onChange={onChangePass}
               placeholder='비밀번호'
               ></input>
+              <img src={Eyes} className='Eyes'/>
             </legend>
             <button className='LoginButton' onClick={handleClick}>로그인 →</button>
           </div>
