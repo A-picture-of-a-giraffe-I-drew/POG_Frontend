@@ -6,6 +6,7 @@ import './index.css'
 import { Route,  BrowserRouter, Routes} from 'react-router-dom'
 import Join from './JoinPage.jsx'
 import Main from './mainPage.jsx'
+import LoginMain from './LoginMainPage.jsx'
 
 createRoot(document.getElementById('root')).render( 
     <BrowserRouter>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/' element={<Main/>}></Route>
         <Route path='/Login' element={<Login/>}></Route>
         <Route path='/Join' element={<Join/>}></Route>
+        <Route path='/LoginMain' element={<LoginMain/>}></Route>
       </Routes>
     </BrowserRouter>
 )
